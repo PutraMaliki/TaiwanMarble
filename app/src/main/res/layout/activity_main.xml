@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Number Of Player"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/satu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 Player" />
+
+        <RadioButton
+            android:id="@+id/dua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 Player" />
+
+        <RadioButton
+            android:id="@+id/tiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 Player" />
+
+        <RadioButton
+            android:id="@+id/empat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 Player" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+</LinearLayout>
